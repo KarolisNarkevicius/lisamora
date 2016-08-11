@@ -1,0 +1,31 @@
+.sauna {
+    .media {
+
+        margin-top : 20px;
+
+        .material-placeholder {
+
+            display : inline;
+
+            img {
+                height     : auto;
+                width      : 24%;
+                max-height : 170px;
+                display    : inline;
+
+                &.active {
+                    max-height : none;
+                }
+
+            }
+        }
+    }
+
+    .fancy-heading {
+        margin : 70px 0 10px 0;
+        &:first-child {
+            margin : 20px 0 10px 0;
+        }
+    }
+
+}

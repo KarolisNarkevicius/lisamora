@@ -1,0 +1,166 @@
+html, body {
+  height: 100%; }
+
+h3 {
+  margin: 0; }
+
+nav {
+  background: rgba(255, 255, 255, 0.96); }
+  nav ul a {
+    color: black; }
+    nav ul a.active {
+      background: #f44336;
+      color: white; }
+  nav .brand-logo {
+    padding: 0px; }
+    nav .brand-logo img {
+      height: 60px; }
+
+h3 {
+  color: #ef5350;
+  font-weight: 350;
+  font-size: 1.4rem;
+  text-align: center; }
+
+.fancy-heading {
+  margin-top: 20px;
+  color: black;
+  font-weight: 500;
+  font-size: 2.2rem;
+  top: -15px;
+  margin-bottom: 35px;
+  text-align: center; }
+  .fancy-heading span {
+    position: relative; }
+    .fancy-heading span::before {
+      content: "";
+      position: absolute;
+      border-top: 3px solid #ef5350;
+      width: 100px;
+      height: 3px;
+      top: 50%;
+      right: 100%;
+      margin-right: 10px; }
+    .fancy-heading span::after {
+      content: "";
+      position: absolute;
+      border-top: 3px solid #ef5350;
+      width: 100px;
+      height: 3px;
+      top: 50%;
+      left: 100%;
+      margin-left: 10px; }
+
+.container {
+  position: absolute;
+  left: 15%;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.96);
+  padding: 20px 40px;
+  padding-bottom: 50px;
+  margin-top: 20px; }
+  .container p {
+    font-size: 1.1rem;
+    margin: 0; }
+  .container ul {
+    text-align: center; }
+    .container ul li {
+      font-size: 1.2rem; }
+
+.slider {
+  position: fixed;
+  top: 0;
+  height: 100% !important; }
+  .slider .slides {
+    height: 100% !important; }
+    .slider .slides img {
+      opacity: 0.6;
+      filter: alpha(opacity=6);
+      /* For IE8 and earlier */ }
+  .slider .indicators {
+    display: none; }
+
+.about .nav-apie {
+  background: #f44336;
+  color: white; }
+
+.about .car-image {
+  text-align: center;
+  margin-top: 20px; }
+  .about .car-image img {
+    width: 75%; }
+
+.sauna .media {
+  margin-top: 20px; }
+  .sauna .media .material-placeholder {
+    display: inline; }
+    .sauna .media .material-placeholder img {
+      height: auto;
+      width: 24%;
+      max-height: 170px;
+      display: inline; }
+      .sauna .media .material-placeholder img.active {
+        max-height: none; }
+
+.sauna .fancy-heading {
+  margin: 70px 0 10px 0; }
+  .sauna .fancy-heading:first-child {
+    margin: 20px 0 10px 0; }
+
+.Flags {
+  position: fixed;
+  top: 64px;
+  z-index: 1;
+  width: 100%;
+  text-align: right;
+  padding: 10px 20px 0 0; }
+  .Flags a {
+    cursor: pointer; }
+    .Flags a img {
+      margin-left: 10px;
+      width: 26px;
+      height: 18px; }
+
+.contacts .nav-contacts {
+  background: #f44336;
+  color: white; }
+
+.contacts .fancy-heading {
+  margin: 30px 0 10px 0; }
+  .contacts .fancy-heading:first-child {
+    margin: 20px 0 30px 0; }
+
+.contacts .info .block .center {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .contacts .info .block .center .text {
+    float: left;
+    margin-left: 5px;
+    font-size: 20px; }
+  .contacts .info .block .center .icon {
+    float: left; }
+  .contacts .info .block .center:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+.contacts .info-lt .title {
+  font-weight: 600;
+  font-size: 17px; }
+
+.contacts .form .input-field input:focus {
+  border-bottom: #f44336;
+  box-shadow: 0 1px 0 0 #f44336; }
+
+.contacts .form .input-field textarea:focus {
+  border-bottom: #f44336;
+  box-shadow: 0 1px 0 0 #f44336; }
+
+.contacts .form .input-field label.active {
+  color: #f44336; }
+
+.contacts .form .btn {
+  background-color: #f44336 !important; }
+
+/*# sourceMappingURL=app.css.map */

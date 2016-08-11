@@ -1,0 +1,125 @@
+html, body {
+    height:100%;
+}
+
+h3 {
+    margin:0;
+}
+
+nav {
+    background: rgba(255,255,255,0.96);
+    ul {
+        a {
+            color : black;
+            &.active {
+                //background:rgba(0,0,0,0.1);
+                background:#f44336;
+                color:white;
+            }
+        }
+    }
+
+    .brand-logo {
+        padding : 0px;
+        img {
+            height:60px;
+        }
+    }
+}
+
+h3 {
+    color: #ef5350  ;
+    font-weight: 350;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.fancy-heading {
+
+    margin-top: 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 2.2rem;
+    top: -15px;
+    margin-bottom: 35px;
+    text-align: center;
+
+    span {
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            border-top: 3px solid #ef5350;
+            width: 100px;
+            height: 3px;
+            top: 50%;
+            right: 100%;
+            margin-right: 10px;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            border-top: 3px solid #ef5350;
+            width: 100px;
+            height: 3px;
+            top: 50%;
+            left: 100%;
+            margin-left: 10px;
+        }
+
+    }
+
+}
+
+
+.container {
+
+    position   : absolute;
+    left       : 15%;
+    z-index    : 3;
+
+    background : rgba(255, 255, 255, 0.96);
+    padding    : 20px 40px;
+    padding-bottom:50px;
+    margin-top : 20px;
+
+    p {
+        font-size : 1.1rem;
+        margin    : 0;
+    }
+
+    ul {
+        text-align : center;
+        li {
+            font-size : 1.2rem;
+        }
+    }
+
+}
+
+
+
+.slider {
+    position:fixed;
+    top:0;
+    height:100% !important;
+    .slides {
+        height:100% !important;
+
+        img {
+            opacity: 0.6;
+            filter: alpha(opacity=6); /* For IE8 and earlier */
+        }
+
+    }
+    .indicators {
+        display: none;
+    }
+}
+
+
+@import "about";
+@import "sauna";
+@import "flags";
+@import "contacts";
+
+

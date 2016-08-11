@@ -1,0 +1,17 @@
+.Flags {
+    position   : fixed;
+    top        : 64px;
+    z-index    : 1;
+    width      : 100%;
+    text-align : right;
+    padding    : 10px 20px 0 0;
+    a {
+        cursor:pointer;
+        img {
+            margin-left : 10px;
+            width       : 26px;
+            height      : 18px;
+        }
+    }
+
+}

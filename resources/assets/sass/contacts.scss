@@ -1,0 +1,74 @@
+.contacts {
+    .nav-contacts {
+        //background: rgba(0,0,0,0.1);
+        background : #f44336;
+        color      : white;
+    }
+
+    .fancy-heading {
+        margin : 30px 0 10px 0;
+        &:first-child {
+            margin : 20px 0 30px 0;
+        }
+    }
+
+    .info {
+        .block {
+            .center {
+
+                justify-content : center;
+
+                .text {
+                    float       : left;
+                    margin-left : 5px;
+                    font-size   : 20px;
+                }
+                .icon {
+                    float : left;
+                }
+
+                &:after {
+                    content : '';
+                    display : block;
+                    clear   : both;
+                }
+            }
+
+        }
+    }
+
+    .info-lt {
+        .title {
+            font-weight:600;
+            font-size:17px;
+        }
+    }
+
+    .form {
+        .input-field {
+            input {
+                &:focus {
+                    border-bottom : #f44336;
+                    box-shadow    : 0 1px 0 0 #f44336;
+                }
+            }
+            textarea {
+                &:focus {
+                    border-bottom : #f44336;
+                    box-shadow    : 0 1px 0 0 #f44336;
+                }
+            }
+
+            label {
+                &.active {
+                    color : #f44336;
+                }
+            }
+        }
+
+        .btn {
+            background-color: #f44336 !important;
+        }
+    }
+
+}
