@@ -37,23 +37,29 @@
             </span>
             </h2>
             <div class="row info-lt">
-                <div class="col s4 m4 l4 center-align">
+                <div class="col s12 m3 l3 center-align">
                     <div class="title">                        Direktorius                    </div>
                     <div>                        Vygandas Kavaliauskas                    </div>
                     <div>                        Mobilus telefonas  +370 699 16387                    </div>
                     <div>                        El. paštas:  vygandas@lisamora.lt                    </div>
                 </div>
-                <div class="col s4 m4 l4 center-align">
+                <div class="col s12 m3 l3 center-align">
                     <div class="title">                        Užsakymai, konsultacijos, projektai                    </div>
                     <div>                        Renaldas Streleckis                    </div>
                     <div>                        Mobilus telefonas  +370 699 96956                    </div>
                     <div>                        El.paštas:  renaldas@lisamora.lt                    </div>
                 </div>
-                <div class="col s4 m4 l4 center-align">
+                <div class="col s12 m3 l3 center-align">
                     <div class="title">                        Vyr. buhalterė                    </div>
                     <div>                        Simona Radžiukynienė                    </div>
                     <div>                        Mobilus telefonas     +370 655 57566                    </div>
                     <div>                        El.paštas:  simona@lisamora.lt                    </div>
+                </div>
+                <div class="col s12 m3 l3 center-align">
+                    <div class="title">                        Projektų Vadovas                    </div>
+                    <div>                        Andrius Pileckas                    </div>
+                    <div>                        Mobilus telefonas     +370 673 69772                    </div>
+                    <div>                        El.paštas:  andrius@lisamora.lt                    </div>
                 </div>
             </div>
             <h2 class="fancy-heading">

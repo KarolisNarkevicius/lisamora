@@ -35,6 +35,7 @@
         @endif
 
          $('.modal-trigger').leanModal();
+        $(".button-collapse").sideNav();
     });
 </script>
 <script>

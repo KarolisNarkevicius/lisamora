@@ -163,4 +163,24 @@ h3 {
 .contacts .form .btn {
   background-color: #f44336 !important; }
 
+@media only screen and (max-width: 40em) {
+  .container {
+    width: 100%;
+    left: 0px;
+    z-index: 0;
+    margin-top: 0px;
+    padding: 20px 10px;
+    padding-bottom: 50px; }
+  .mobile-button {
+    color: black;
+    padding: 0 0 0 10px; }
+  nav .brand-logo img {
+    height: 48px; }
+  .Flags {
+    background: rgba(0, 0, 0, 0.1);
+    top: inherit;
+    bottom: 0px;
+    text-align: center;
+    padding: 10px; } }
+
 /*# sourceMappingURL=app.css.map */
