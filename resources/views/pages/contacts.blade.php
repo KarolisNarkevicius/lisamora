@@ -12,7 +12,7 @@
         </h2>
             <div class="info">
                 <div class="row">
-                    <div class="block col l6">
+                    <div class="block col l6 s12 m6">
                         <div class="center valign-wrapper">
                                 <i class="small material-icons valign">contact_phone</i>
                             <span class="text valign">
@@ -20,7 +20,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="block col l6">
+                    <div class="block col l6 s12 m6">
                         <div class="center valign-wrapper">
                             <i class="small material-icons valign">email</i>
                             <span class="text valign">
